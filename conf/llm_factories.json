@@ -505,7 +505,21 @@
             "logo": "",
             "tags": "LLM,TEXT EMBEDDING,SPEECH2TEXT,MODERATION",
             "status": "1",
-            "llm": []
+            "llm": [
+                {
+                    "llm_name": "qwen2.5-omni-7b",
+                    "tags": "LLM,CHAT",
+                    "max_tokens": 512,
+                    "model_type": "chat",
+                    "is_tools": false
+                },
+                {
+                    "llm_name": "text-embedding-ada-002",
+                    "tags": "TEXT EMBEDDING,8K",
+                    "max_tokens": 8192,
+                    "model_type": "embedding"
+                }
+            ]
         },
         {
             "name": "VLLM",
