@@ -58,10 +58,10 @@ redis:
 #   secret: 'secret'
 #   tenant_id: 'tenant_id'
 #   container_name: 'container_name'
-# user_default_llm:
-#   factory: 'Tongyi-Qianwen'
-#   api_key: 'sk-xxxxxxxxxxxxx'
-#   base_url: ''
+user_default_llm:
+  factory: 'OpenAI-API-Compatible'
+  api_key: ''
+  base_url: 'http://159.203.51.165:8000/v1/'
 # oauth:
 #   oauth2:
 #     display_name: "OAuth2"
